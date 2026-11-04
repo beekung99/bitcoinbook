@@ -11,7 +11,7 @@ std::string bitcoin_address(const bc::ec_secret& secret);
 // Case insensitive comparison with the search string.
 bool match_found(const std::string& address);
 
-int main()
+int main()i
 {
     // random_device on Linux uses "/dev/urandom"
     // CAUTION: Depending on implementation this RNG may not be secure enough!
